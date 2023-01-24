@@ -15,7 +15,6 @@ public class ReverseLinkedList {
             System.out.println(reverseList(head));
         }
 
-
         static ListNode reverseList(ListNode head) {
             // create a current variable and assign it to head
             var current = head;
