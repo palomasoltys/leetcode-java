@@ -1,7 +1,9 @@
 public class PermutationInString {
 
     public static void main(String[] args) {
-        System.out.println(checkInclusion("ab", "eidbaooo"));
+        System.out.println(checkInclusion("ab", "eidbaooo")); // true
+        System.out.println(checkInclusion("ab", "eidboaoo")); // false
+
     }
 
     static boolean checkInclusion(String s1, String s2) {
